@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/start.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    {% block css_for_start %}
+    {% endblock %}
+  </head>
+  <body>
+    <div class='have-colour'>
+      <div style="background-color:#000000;" class="colour navbar"></div>
+      <div style="background-color:#000000;" class="colour"></div>
+      <div style="background-color:#000000;" class="colour"></div>
+      <div style="background-color:#000000;" class="colour"></div>
+      <div style="background-color:#000000;" class="colour"></div>
+      <div style="background-color:#000000;" class="colour"></div>
+      <div style="background-color:#000000;" class="colour"></div>
+    </div>
+    {% block for-slider %}
+    {% endblock %}
+    <div class="content" align="center">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

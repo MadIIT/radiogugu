@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block css_for_start %}
+
+<link rel="stylesheet" href="/static/css_for_first.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Libre+Barcode+EAN13+Text&family=New+Tegomin&family=Yesteryear&display=swap" rel="stylesheet">
+
+{% endblock %}
+{% block for-slider %}
+<canvas id="confetti" style="background-color:black;width:100vw;height:100vh;"></canvas>
+
+<div id="monitor">
+<div class="scan"></div>
+<div class="screen"></div>
+</div>
+<script type="text/javascript" src="/static/pinata.js">
+
+</script>
+{% endblock for-slider %}
+{% block content %}
+<p class="msg">Happy Birthday</p>
+<p class="bar-name">Sai</p>
+<p class="name">Sai</p>
+{% endblock content %}
